@@ -11,7 +11,7 @@
 
     <!-- additional css -->
     <link rel="stylesheet" href="assets/css/index.css">
-    <title>Hello, world!</title>
+    <title>Trip Expense Manager</title>
 </head>
 
 <body>
@@ -21,14 +21,14 @@
             <h2>Login/Create Account</h2>
             <div class="login-page">
                 <div class="form">
-                    <form class="register-form" method="POST">
+                    <form class="register-form" method="POST" action="dashboard.jsp">
                         <input type="text" placeholder="name" />
                         <input type="password" placeholder="password" />
                         <input type="text" placeholder="email address" />
                         <button>create</button>
                         <p class="message">Already registered? <a href="#">Sign In</a></p>
                     </form>
-                    <form class="login-form" method="POST">
+                    <form class="login-form" method="POST" action="dashboard.jsp">
                         <input type="text" placeholder="username" />
                         <input type="password" placeholder="password" />
                         <button>login</button>
@@ -40,7 +40,7 @@
         <div class="col-md-6">
             <h2>Resume Trip</h2>
             <div class="resumeTripForm">
-                <form class="" method="POST" action="resumeTrip.jsp">
+                <form class="" method="POST" action="addExpense.jsp">
                     <input type="text" placeholder="Trip Id" />
                     <input type="password" placeholder="passCode" />
                     <button>Resume Trip</button>
